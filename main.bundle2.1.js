@@ -16600,7 +16600,7 @@
             Uu(this, Pu, "f").instanceMatrix.needsUpdate = !0
          }
          static initResources(e) {
-            e.addResource(), Du(this, Au, (new yh).load("images/smoke.png", (() => {
+            e.addResource(), Du(this, Au, (new yh).load("https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/smoke.png", (() => {
                e.loadedResource()
             })), "f", Nu)
          }
@@ -18577,7 +18577,7 @@
             const t = new Image;
             t.addEventListener("load", (() => {
                e.loadedResource()
-            })), t.src = "images/car_stripe.svg", Pg.images = {
+            })), t.src = "https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/car_stripe.svg", Pg.images = {
                stripe: t
             }
          }
@@ -19404,13 +19404,13 @@
             const s = document.createElement("div");
             s.className = "top", Nw(this, Sw, "f").appendChild(s);
             const l = document.createElement("button");
-            l.className = "button", l.innerHTML = '<img class="button-icon" src="images/quit.svg"> ', l.append(document.createTextNode(t.get("Exit"))), l.addEventListener("click", (() => {
+            l.className = "button", l.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/quit.svg"> ', l.append(document.createTextNode(t.get("Exit"))), l.addEventListener("click", (() => {
                i.playUIClick(), o()
             })), s.appendChild(l), window.addEventListener("keydown", Iw(this, _w, (e => {
                "Escape" == e.code && (o(), e.preventDefault())
             }), "f"));
             const c = document.createElement("button");
-            c.className = "button", c.innerHTML = '<img class="button-icon" src="images/random.svg"> ', c.append(document.createTextNode(t.get("Random"))), c.addEventListener("click", (() => {
+            c.className = "button", c.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/random.svg"> ', c.append(document.createTextNode(t.get("Random"))), c.addEventListener("click", (() => {
                i.playUIClick(), Nw(this, gw, "m", Pw).call(this)
             })), s.appendChild(c), Iw(this, Mw, document.createElement("div"), "f"), Nw(this, Mw, "f").className = "colors", Nw(this, Sw, "f").appendChild(Nw(this, Mw, "f")), Nw(this, gw, "m", Cw).call(this, t.get("Primary")), Nw(this, gw, "m", Cw).call(this, t.get("Secondary")), Nw(this, gw, "m", Cw).call(this, t.get("Frame")), Nw(this, gw, "m", Cw).call(this, t.get("Rims")), Nw(this, xw, "f").appendChild(Nw(this, Sw, "f"));
             const h = Nw(this, bw, "f").getCarColors();
@@ -20326,13 +20326,13 @@
                n.playUIClick(), this.checkpointOrder++
             })), r.appendChild(a);
             const o = document.createElement("img");
-            o.src = "images/arrow_up.svg", a.appendChild(o);
+            o.src = "https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/arrow_up.svg", a.appendChild(o);
             const s = document.createElement("button");
             s.addEventListener("click", (() => {
                n.playUIClick(), this.checkpointOrder--
             })), r.appendChild(s);
             const l = document.createElement("img");
-            l.src = "images/arrow_down.svg", s.appendChild(l), vb(this, ub, document.createElement("p"), "f"), wb(this, db, "f").appendChild(wb(this, ub, "f")), wb(this, sb, "m", mb).call(this)
+            l.src = "https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/arrow_down.svg", s.appendChild(l), vb(this, ub, document.createElement("p"), "f"), wb(this, db, "f").appendChild(wb(this, ub, "f")), wb(this, sb, "m", mb).call(this)
          }
          dispose() {
             wb(this, lb, "f").removeChild(wb(this, db, "f")), wb(this, hb, "f").removeChangeListener(wb(this, fb, "f"))
@@ -20383,11 +20383,11 @@
             const o = document.createElement("button");
             o.addEventListener("click", i), a.appendChild(o);
             const s = document.createElement("img");
-            s.src = "images/arrow_up.svg", o.appendChild(s);
+            s.src = "https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/arrow_up.svg", o.appendChild(s);
             const l = document.createElement("button");
             l.addEventListener("click", r), a.appendChild(l);
             const c = document.createElement("img");
-            c.src = "images/arrow_down.svg", l.appendChild(c)
+            c.src = "https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/arrow_down.svg", l.appendChild(c)
          }
          refresh(e) {
             Cb(this, Mb, "f").textContent = Cb(this, kb, "f").get("Height") + ": " + e
@@ -20428,16 +20428,16 @@
             const d = document.createElement("div");
             d.className = "bar", h.appendChild(d);
             const u = document.createElement("button");
-            u.className = "button", u.innerHTML = '<img class="button-icon" src="images/back.svg"> ', u.append(document.createTextNode(r.get("Back"))), u.addEventListener("click", (() => {
+            u.className = "button", u.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/back.svg"> ', u.append(document.createTextNode(r.get("Back"))), u.addEventListener("click", (() => {
                a.playUIClick(), t()
-            })), d.appendChild(u), Hb(this, zb, document.createElement("button"), "f"), Vb(this, zb, "f").className = "hidden", Vb(this, zb, "f").innerHTML = '<img class="button-icon" src="images/copy.svg"> ', Vb(this, zb, "f").append(document.createTextNode(r.get("Copy"))), Vb(this, zb, "f").addEventListener("click", (() => {
+            })), d.appendChild(u), Hb(this, zb, document.createElement("button"), "f"), Vb(this, zb, "f").className = "hidden", Vb(this, zb, "f").innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/copy.svg"> ', Vb(this, zb, "f").append(document.createTextNode(r.get("Copy"))), Vb(this, zb, "f").addEventListener("click", (() => {
                a.playUIClick();
                try {
                   navigator.clipboard.writeText(Vb(this, Ob, "f").value)
                } catch (e) {
                   console.error(e)
                }
-            })), d.appendChild(Vb(this, zb, "f")), Hb(this, Fb, document.createElement("button"), "f"), Vb(this, Fb, "f").className = "hidden", Vb(this, Fb, "f").innerHTML = '<img class="button-icon" src="images/import.svg"> ', Vb(this, Fb, "f").append(document.createTextNode(r.get("Import"))), Vb(this, Fb, "f").addEventListener("click", (() => {
+            })), d.appendChild(Vb(this, zb, "f")), Hb(this, Fb, document.createElement("button"), "f"), Vb(this, Fb, "f").className = "hidden", Vb(this, Fb, "f").innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/import.svg"> ', Vb(this, Fb, "f").append(document.createTextNode(r.get("Import"))), Vb(this, Fb, "f").addEventListener("click", (() => {
                a.playUIClick();
                const e = () => {
                      const e = Vb(this, Bb, "f").className;
@@ -20600,7 +20600,7 @@
             h = document.createElement("div");
          if (h.className = "record", h.textContent = null != c ? sx.formatTimeString(c) : Tx(this, hx, "f").get("No record"), o.appendChild(h), null != r) {
             const e = document.createElement("button");
-            e.className = "delete-button", e.innerHTML = '<img src="images/erase.svg">', e.addEventListener("click", (() => {
+            e.className = "delete-button", e.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/erase.svg">', e.addEventListener("click", (() => {
                Tx(this, dx, "f").playUIClick(), r()
             })), a.appendChild(e)
          }
@@ -20628,11 +20628,11 @@
             const u = document.createElement("div");
             u.className = "bar", Tx(this, yx, "f").appendChild(u), Mx(this, bx, document.createElement("div"), "f"), Tx(this, bx, "f").className = "tracks-container", Tx(this, yx, "f").appendChild(Tx(this, bx, "f"));
             const p = document.createElement("button");
-            p.className = "button", c ? (p.innerHTML = '<img class="button-icon" src="images/erase.svg"> ', p.append(document.createTextNode(Tx(this, hx, "f").get("Cancel")))) : (p.innerHTML = '<img class="button-icon" src="images/back.svg"> ', p.append(document.createTextNode(Tx(this, hx, "f").get("Back")))), p.addEventListener("click", (() => {
+            p.className = "button", c ? (p.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/erase.svg"> ', p.append(document.createTextNode(Tx(this, hx, "f").get("Cancel")))) : (p.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/back.svg"> ', p.append(document.createTextNode(Tx(this, hx, "f").get("Back")))), p.addEventListener("click", (() => {
                Tx(this, dx, "f").playUIClick(), h()
             })), u.appendChild(p);
             const f = document.createElement("button");
-            f.className = "button right", f.innerHTML = '<img class="button-icon" src="images/import.svg"> ', f.append(document.createTextNode(Tx(this, hx, "f").get("Import"))), f.addEventListener("click", (() => {
+            f.className = "button right", f.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/import.svg"> ', f.append(document.createTextNode(Tx(this, hx, "f").get("Import"))), f.addEventListener("click", (() => {
                Tx(this, dx, "f").playUIClick(), this.hide(), Mx(this, xx, new Gb("", (() => {
                   var e;
                   this.show(), null === (e = Tx(this, xx, "f")) || void 0 === e || e.dispose(), Mx(this, xx, null, "f")
@@ -20728,7 +20728,7 @@
          constructor(e, t, n) {
             Ux.add(this), Bx.set(this, void 0), Ox.set(this, void 0), zx.set(this, !1), Fx.set(this, !1), Hx(this, Bx, e, "f"), Hx(this, Ox, document.createElement("div"), "f"), Vx(this, Ox, "f").className = "hidden", Vx(this, Bx, "f").appendChild(Vx(this, Ox, "f"));
             const i = document.createElement("button");
-            i.className = "rotate", i.innerHTML = '<img src="images/rotate.svg">', i.addEventListener("touchstart", (() => {
+            i.className = "rotate", i.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/rotate.svg">', i.addEventListener("touchstart", (() => {
                i.classList.add("active")
             })), i.addEventListener("touchend", (() => {
                i.classList.remove("active")
@@ -20828,7 +20828,7 @@
             const D = document.createElement("div");
             D.className = "button-wrapper", c.appendChild(D);
             const U = document.createElement("button");
-            U.className = "button", U.innerHTML = '<img class="button-icon" src="images/cancel.svg"> ', U.append(document.createTextNode(t.get("Close"))), U.addEventListener("click", (() => {
+            U.className = "button", U.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/cancel.svg"> ', U.append(document.createTextNode(t.get("Close"))), U.addEventListener("click", (() => {
                e.playUIClick(), s()
             })), D.appendChild(U), window.addEventListener("keydown", Zx(this, Kx, (e => {
                "Escape" == e.code && (s(), e.preventDefault())
@@ -20855,15 +20855,15 @@
          const n = document.createElement("div");
          n.className = "button-bar", Dk(this, v_, "f").appendChild(n);
          const i = document.createElement("button");
-         i.className = "button", i.innerHTML = '<img class="button-icon" src="images/quit.svg"> ', i.append(document.createTextNode(Dk(this, n_, "f").get("Exit"))), i.addEventListener("click", (() => {
+         i.className = "button", i.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/quit.svg"> ', i.append(document.createTextNode(Dk(this, n_, "f").get("Exit"))), i.addEventListener("click", (() => {
             Dk(this, e_, "f").playUIClick(), Dk(this, $x, "m", mk).call(this, e)
          })), n.appendChild(i);
          const r = document.createElement("button");
-         r.className = "button", r.innerHTML = '<img class="button-icon" src="images/test.svg"> ', r.append(Dk(this, n_, "f").get("Test")), r.addEventListener("click", (() => {
+         r.className = "button", r.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/test.svg"> ', r.append(Dk(this, n_, "f").get("Test")), r.addEventListener("click", (() => {
             Dk(this, e_, "f").playUIClick(), Dk(this, $x, "m", gk).call(this)
          })), n.appendChild(r);
          const a = document.createElement("button");
-         a.className = "button", a.innerHTML = '<img class="button-icon" src="images/random.svg"> ', a.append(Dk(this, n_, "f").get("Generate")), a.addEventListener("click", (() => {
+         a.className = "button", a.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/random.svg"> ', a.append(Dk(this, n_, "f").get("Generate")), a.addEventListener("click", (() => {
             Dk(this, e_, "f").playUIClick();
             const e = () => {
                var e;
@@ -21165,7 +21165,7 @@
             Nk(this, ok, (Dk(this, ok, "f") + 1) % 4, "f")
          })), "f"), Dk(this, T_, "f").setEnabled(Dk(this, u_, "f").touchEnabled);
          const o = document.createElement("button");
-         o.className = "button", o.innerHTML = '<img class="button-icon" src="images/load.svg"> ', o.append(document.createTextNode(Dk(this, n_, "f").get("Load"))), o.addEventListener("click", (() => {
+         o.className = "button", o.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/load.svg"> ', o.append(document.createTextNode(Dk(this, n_, "f").get("Load"))), o.addEventListener("click", (() => {
             Dk(this, e_, "f").playUIClick(), Dk(this, K_, "f") ? (Dk(this, S_, "f").show(), Dk(this, g_, "f").className = "hidden") : (Dk(this, g_, "f").inert = !0, Dk(this, d_, "f").showConfirm(Dk(this, n_, "f").get("Are you sure you want to load a new track?\n\nYour current track will be lost!"), Dk(this, n_, "f").get("Cancel"), Dk(this, n_, "f").get("Confirm"), (() => {
                Dk(this, g_, "f").inert = !1
             }), (() => {
@@ -21173,7 +21173,7 @@
             })))
          })), n.appendChild(o);
          const s = document.createElement("button");
-         s.className = "button", s.innerHTML = '<img class="button-icon" src="images/save.svg"> ', s.append(document.createTextNode(Dk(this, n_, "f").get("Save"))), s.addEventListener("click", (() => {
+         s.className = "button", s.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/save.svg"> ', s.append(document.createTextNode(Dk(this, n_, "f").get("Save"))), s.addEventListener("click", (() => {
             Dk(this, e_, "f").playUIClick();
             const e = this.getTrackName();
             if (null == e) Dk(this, $x, "m", wk).call(this, Dk(this, n_, "f").get("Failed to save - Track name is needed!"), !1);
@@ -21190,7 +21190,7 @@
             }
          })), n.appendChild(s);
          const l = document.createElement("button");
-         l.className = "button", l.innerHTML = '<img class="button-icon" src="images/export.svg"> ', l.append(document.createTextNode(Dk(this, n_, "f").get("Export"))), l.addEventListener("click", (() => {
+         l.className = "button", l.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/export.svg"> ', l.append(document.createTextNode(Dk(this, n_, "f").get("Export"))), l.addEventListener("click", (() => {
             Dk(this, e_, "f").playUIClick();
             const e = this.getTrackName();
             if (null == e) Dk(this, $x, "m", wk).call(this, Dk(this, n_, "f").get("Failed to export - Track name is needed!"), !1);
@@ -21203,7 +21203,7 @@
             }
          })), n.appendChild(l);
          const c = document.createElement("button");
-         c.className = "button", c.innerHTML = '<img class="button-icon" src="images/help.svg"> ', c.append(document.createTextNode(Dk(this, n_, "f").get("Help"))), c.addEventListener("click", (() => {
+         c.className = "button", c.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/help.svg"> ', c.append(document.createTextNode(Dk(this, n_, "f").get("Help"))), c.addEventListener("click", (() => {
             Dk(this, e_, "f").playUIClick();
             const e = Dk(this, o_, "f").getPart(Bw.Start).mesh;
             if (null == e) throw new Error("Starting point mesh is null");
@@ -21231,7 +21231,7 @@
             Dk(this, e_, "f").playUIClick(), Dk(this, $x, "m", bk).call(this, null)
          })), Dk(this, __, "f").appendChild(f);
          const m = document.createElement("img");
-         m.src = "images/erase.svg", f.appendChild(m), Dk(this, Q_, "f").add(p), Dk(this, hk, "f").push({
+         m.src = "https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/erase.svg", f.appendChild(m), Dk(this, Q_, "f").add(p), Dk(this, hk, "f").push({
             id: null,
             mesh: p,
             button: f,
@@ -21581,7 +21581,7 @@
             const n = document.createElement("div");
             eE(this, Zk, "f").appendChild(n);
             const i = document.createElement("img");
-            i.src = "images/checkpoint.svg", n.appendChild(i), $k(this, Jk, document.createElement("span"), "f"), n.appendChild(eE(this, Jk, "f"))
+            i.src = "https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/checkpoint.svg", n.appendChild(i), $k(this, Jk, document.createElement("span"), "f"), n.appendChild(eE(this, Jk, "f"))
          }
          dispose() {
             eE(this, Kk, "f").removeChild(eE(this, Zk, "f"))
@@ -21871,7 +21871,7 @@
          constructor(e, t, n, i) {
             gS.set(this, void 0), vS.set(this, void 0), wS.set(this, void 0), yS(this, gS, document.getElementById("ui"), "f"), yS(this, vS, document.createElement("div"), "f"), bS(this, vS, "f").className = "hidden", bS(this, gS, "f").appendChild(bS(this, vS, "f"));
             const r = document.createElement("button");
-            r.className = "quit", r.innerHTML = '<img src="images/quit.svg">', r.addEventListener("touchstart", (() => {
+            r.className = "quit", r.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/quit.svg">', r.addEventListener("touchstart", (() => {
                r.classList.add("active"), r.click()
             })), r.addEventListener("touchend", (() => {
                r.classList.remove("active")
@@ -21879,7 +21879,7 @@
                t.playUIClick(), i()
             })), bS(this, vS, "f").appendChild(r);
             const a = document.createElement("button");
-            a.className = "reset", a.innerHTML = '<img src="images/reset.svg">', a.addEventListener("touchstart", (() => {
+            a.className = "reset", a.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/reset.svg">', a.addEventListener("touchstart", (() => {
                a.classList.add("active"), a.click()
             })), a.addEventListener("touchend", (() => {
                a.classList.remove("active")
@@ -21889,15 +21889,15 @@
             const o = document.createElement("div");
             o.className = "left-container", bS(this, vS, "f").appendChild(o);
             const s = document.createElement("div");
-            s.innerHTML = '<img src="images/arrow_up.svg">', o.appendChild(s);
+            s.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/arrow_up.svg">', o.appendChild(s);
             const l = document.createElement("div");
-            l.innerHTML = '<img src="images/arrow_down.svg">', o.appendChild(l);
+            l.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/arrow_down.svg">', o.appendChild(l);
             const c = document.createElement("div");
             c.className = "right-container", bS(this, vS, "f").appendChild(c);
             const h = document.createElement("div");
-            h.innerHTML = '<img src="images/arrow_left.svg">', c.appendChild(h);
+            h.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/arrow_left.svg">', c.appendChild(h);
             const d = document.createElement("div");
-            d.innerHTML = '<img src="images/arrow_right.svg">', c.appendChild(d), yS(this, wS, (t => {
+            d.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/arrow_right.svg">', c.appendChild(d), yS(this, wS, (t => {
                let n = !1,
                   i = !1,
                   r = !1,
@@ -22051,7 +22051,7 @@
          constructor(e, t, n, i) {
             BS.set(this, void 0), OS.set(this, void 0), zS.set(this, !0), FS(this, BS, document.getElementById("ui"), "f"), FS(this, OS, document.createElement("div"), "f"), n.getSettingBoolean(Jh.CheckpointsPosition) ? WS(this, OS, "f").className = "game-toolbar visible" : WS(this, OS, "f").className = "game-toolbar visible up";
             const r = document.createElement("button");
-            r.className = "button", r.innerHTML = '<img class="button-icon" src="images/quit.svg"> ', r.append(document.createTextNode(t.get("Exit"))), r.addEventListener("click", (() => {
+            r.className = "button", r.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/quit.svg"> ', r.append(document.createTextNode(t.get("Exit"))), r.addEventListener("click", (() => {
                e.playUIClick(), i()
             })), WS(this, OS, "f").appendChild(r), WS(this, BS, "f").appendChild(WS(this, OS, "f"))
          }
@@ -22668,15 +22668,15 @@
             const l = document.createElement("div");
             l.className = "button-wrapper", UT(this, _T, "f").appendChild(l);
             const c = document.createElement("button");
-            c.className = "button cancel", c.innerHTML = '<img class="button-icon" src="images/cancel.svg"> ', c.append(document.createTextNode(t.get("Cancel"))), c.addEventListener("click", (() => {
+            c.className = "button cancel", c.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/cancel.svg"> ', c.append(document.createTextNode(t.get("Cancel"))), c.addEventListener("click", (() => {
                n.playUIClick(), i.updateSettings(Array.from(UT(this, ST, "f"))), r.generateMeshes(), o()
             })), l.appendChild(c);
             const h = document.createElement("button");
-            h.className = "button reset", h.innerHTML = '<img class="button-icon" src="images/reset_settings.svg"> ', h.append(document.createTextNode(t.get("Reset"))), h.addEventListener("click", (() => {
+            h.className = "button reset", h.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/reset_settings.svg"> ', h.append(document.createTextNode(t.get("Reset"))), h.addEventListener("click", (() => {
                n.playUIClick(), DT(this, MT, UT(this, yT, "f").defaultSettings(), "f"), i.updateSettings(Array.from(UT(this, MT, "f"))), DT(this, TT, UT(this, yT, "f").defaultKeyBindings(), "f"), r.generateMeshes(), UT(this, mT, "m", PT).call(this)
             })), l.appendChild(h);
             const d = document.createElement("button");
-            d.className = "button apply", d.append(document.createTextNode(t.get("Apply"))), d.innerHTML += ' <img class="button-icon" src="images/apply.svg">', d.addEventListener("click", (() => {
+            d.className = "button apply", d.append(document.createTextNode(t.get("Apply"))), d.innerHTML += ' <img class="button-icon" src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/apply.svg">', d.addEventListener("click", (() => {
                n.playUIClick(), i.updateSettings(Array.from(UT(this, MT, "f"))), i.saveSettings(), i.setKeyBindings(Array.from(UT(this, TT, "f"))), r.generateMeshes(), t.language = i.getSetting(Jh.Language), o()
             })), l.appendChild(d), window.addEventListener("keydown", DT(this, ET, (e => {
                "Escape" == e.code && (o(), e.preventDefault())
@@ -22731,13 +22731,13 @@
             const u = document.createElement("div");
             u.className = "button-wrapper", EA(this, sA, "f").appendChild(u);
             const p = document.createElement("button");
-            p.className = "button back", p.innerHTML = '<img class="button-icon" src="images/back.svg"> ', p.append(document.createTextNode(n.get("Back"))), p.addEventListener("click", (() => {
+            p.className = "button back", p.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/back.svg"> ', p.append(document.createTextNode(n.get("Back"))), p.addEventListener("click", (() => {
                r.playUIClick(), s()
-            })), u.appendChild(p), kA(this, hA, document.createElement("button"), "f"), EA(this, hA, "f").className = "button icon-button first", EA(this, hA, "f").innerHTML = '<img class="button-icon" src="images/pin.svg">', EA(this, hA, "f").disabled = !0, EA(this, hA, "f").addEventListener("click", (() => {
+            })), u.appendChild(p), kA(this, hA, document.createElement("button"), "f"), EA(this, hA, "f").className = "button icon-button first", EA(this, hA, "f").innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/pin.svg">', EA(this, hA, "f").disabled = !0, EA(this, hA, "f").addEventListener("click", (() => {
                r.playUIClick(), null != EA(this, yA, "f") ? EA(this, yA, "f").scrollIntoView({
                   behavior: "smooth"
                }) : null != EA(this, wA, "f") && (kA(this, gA, EA(this, wA, "f"), "f"), EA(this, KT, "m", _A).call(this), EA(this, KT, "m", bA).call(this, !0))
-            })), u.appendChild(EA(this, hA, "f")), kA(this, dA, document.createElement("button"), "f"), EA(this, dA, "f").className = "button icon-button disabled", EA(this, dA, "f").innerHTML = '<img class="button-icon" src="images/verified.svg">', EA(this, dA, "f").addEventListener("click", (() => {
+            })), u.appendChild(EA(this, hA, "f")), kA(this, dA, document.createElement("button"), "f"), EA(this, dA, "f").className = "button icon-button disabled", EA(this, dA, "f").innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/verified.svg">', EA(this, dA, "f").addEventListener("click", (() => {
                r.playUIClick(), kA(this, mA, !EA(this, mA, "f"), "f"), EA(this, mA, "f") ? EA(this, dA, "f").classList.remove("disabled") : EA(this, dA, "f").classList.add("disabled"), EA(this, KT, "m", bA).call(this, !1)
             })), u.appendChild(EA(this, dA, "f"))
          }
@@ -22826,7 +22826,7 @@
             })))
          }))), s.appendChild(l);
          const c = document.createElement("button");
-         c.className = "button preview", c.innerHTML = '<img src="images/preview.svg">', c.addEventListener("click", (() => {
+         c.className = "button preview", c.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/preview.svg">', c.addEventListener("click", (() => {
             EA(this, eA, "f").playUIClick(), EA(this, rA, "f").call(this, new Promise(((e, i) => {
                EA(this, $T, "f").getRecording(o).then((({
                   recording: i,
@@ -22854,7 +22854,7 @@
          const m = document.createElement("p");
          m.className = "name", m.textContent = t, f.appendChild(m);
          const g = document.createElement("p");
-         1 == r ? (g.innerHTML = '<img src="images/state_verified.svg">', g.prepend(document.createTextNode(EA(this, QT, "f").get("Verified"))), g.className = "verified-state verified") : 0 == r ? (g.innerHTML = '<img src="images/state_invalid.svg">', g.prepend(document.createTextNode(EA(this, QT, "f").get("Invalid"))), g.className = "verified-state invalid") : (g.innerHTML = '<img src="images/state_pending.svg">', g.prepend(document.createTextNode(EA(this, QT, "f").get("Pending"))), g.className = "verified-state pending"), f.appendChild(g)
+         1 == r ? (g.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/state_verified.svg">', g.prepend(document.createTextNode(EA(this, QT, "f").get("Verified"))), g.className = "verified-state verified") : 0 == r ? (g.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/state_invalid.svg">', g.prepend(document.createTextNode(EA(this, QT, "f").get("Invalid"))), g.className = "verified-state invalid") : (g.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/state_pending.svg">', g.prepend(document.createTextNode(EA(this, QT, "f").get("Pending"))), g.className = "verified-state pending"), f.appendChild(g)
       }, _A = function e() {
          EA(this, uA, "f").innerHTML = "";
          const t = document.createElement("button");
@@ -22903,7 +22903,7 @@
             const w = document.createElement("p");
             NA(this, PA, "f").appendChild(w);
             const y = document.createElement("button");
-            y.className = "button play", y.innerHTML = '<img src="images/play.svg">', y.prepend(document.createTextNode(t.get("Play"))), y.addEventListener("click", (() => {
+            y.className = "button play", y.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/play.svg">', y.prepend(document.createTextNode(t.get("Play"))), y.addEventListener("click", (() => {
                var e, t;
                a.playUIClick();
                const n = r.getRecord(i.profileSlot, s);
@@ -22966,11 +22966,11 @@
             const l = document.createElement("div");
             l.className = "bottom-bar", XA(this, HA, "f").appendChild(l);
             const c = document.createElement("button");
-            c.className = "button", c.innerHTML = '<img class="button-icon" src="images/back.svg"> ', c.append(document.createTextNode(e.get("Back"))), c.addEventListener("click", (() => {
+            c.className = "button", c.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/back.svg"> ', c.append(document.createTextNode(e.get("Back"))), c.addEventListener("click", (() => {
                t.playUIClick(), i()
             })), l.appendChild(c);
             const h = document.createElement("button");
-            h.className = "button right", h.innerHTML = '<img class="button-icon" src="images/import.svg"> ', h.append(document.createTextNode(e.get("Import"))), h.addEventListener("click", (() => {
+            h.className = "button right", h.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/import.svg"> ', h.append(document.createTextNode(e.get("Import"))), h.addEventListener("click", (() => {
                t.playUIClick(), r()
             })), l.appendChild(h), window.addEventListener("keydown", qA(this, GA, (e => {
                "Escape" == e.code && (i(), e.preventDefault())
@@ -23018,11 +23018,11 @@
             const d = document.createElement("p");
             d.textContent = e.get("Choose a nickname to be shown in the leaderboard. Your nickname can be changed at any time."), lC(this, tC, "f").appendChild(d);
             const u = document.createElement("button");
-            u.className = "button delete", u.innerHTML = ' <img class="button-icon" src="images/delete.svg"> ', u.append(e.get("Delete")), u.addEventListener("click", (() => {
+            u.className = "button delete", u.innerHTML = ' <img class="button-icon" src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/delete.svg"> ', u.append(e.get("Delete")), u.addEventListener("click", (() => {
                t.playUIClick(), o(lC(this, QA, "m", oC).call(this))
             })), lC(this, tC, "f").appendChild(u);
             const p = document.createElement("button");
-            p.className = "button", p.innerHTML = '<img class="button-icon" src="images/export.svg"> ', p.append(e.get("Export")), p.addEventListener("click", (() => {
+            p.className = "button", p.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/export.svg"> ', p.append(e.get("Export")), p.addEventListener("click", (() => {
                t.playUIClick(), s(lC(this, QA, "m", oC).call(this))
             })), lC(this, tC, "f").appendChild(p);
             const f = document.createElement("button");
@@ -23068,16 +23068,16 @@
                const o = document.createElement("div");
                o.className = "bar", gC(this, pC, "f").appendChild(o);
                const s = document.createElement("button");
-               if (s.className = "button", s.innerHTML = '<img class="button-icon" src="images/back.svg"> ', s.append(document.createTextNode(t.get("Back"))), s.addEventListener("click", (() => {
+               if (s.className = "button", s.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/back.svg"> ', s.append(document.createTextNode(t.get("Back"))), s.addEventListener("click", (() => {
                      e.playUIClick(), i()
                   })), o.appendChild(s), null != r) {
                   const n = document.createElement("button");
-                  n.className = "button right", n.innerHTML = '<img class="button-icon" src="images/import.svg"> ', n.append(document.createTextNode(t.get("Import"))), n.addEventListener("click", (() => {
+                  n.className = "button right", n.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/import.svg"> ', n.append(document.createTextNode(t.get("Import"))), n.addEventListener("click", (() => {
                      e.playUIClick(), r(a.value)
                   })), o.appendChild(n)
                } else {
                   const n = document.createElement("button");
-                  n.className = "button right", n.innerHTML = '<img class="button-icon" src="images/copy.svg"> ', n.append(document.createTextNode(t.get("Copy"))), n.addEventListener("click", (() => {
+                  n.className = "button right", n.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/copy.svg"> ', n.append(document.createTextNode(t.get("Copy"))), n.addEventListener("click", (() => {
                      e.playUIClick();
                      try {
                         navigator.clipboard.writeText(a.value)
@@ -23109,7 +23109,7 @@
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
          };
       bC = new WeakMap, xC = new WeakMap, _C = new WeakMap, kC = new WeakMap, EC = new WeakMap, SC = new WeakMap, MC = new WeakMap, TC = new WeakMap, AC = new WeakMap, CC = new WeakMap, PC = new WeakMap, RC = new WeakMap, LC = new WeakMap, IC = new WeakMap, NC = new WeakMap, DC = new WeakMap, UC = new WeakMap, yC = new WeakSet, BC = function e(t, n, i, r, a, o, s, l, c, h, d, u, p, f, m, g, v) {
-         GC(this, _C, "f").innerHTML = "", VC(this, kC, document.createElement("img"), "f"), GC(this, kC, "f").src = "images/logo.svg", GC(this, kC, "f").className = "logo", GC(this, _C, "f").appendChild(GC(this, kC, "f")), VC(this, TC, new Ax(GC(this, _C, "f"), t, n, s, l, h, a, o, u, !1, (() => {
+         GC(this, _C, "f").innerHTML = "", VC(this, kC, document.createElement("img"), "f"), GC(this, kC, "f").src = "https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/logo.svg", GC(this, kC, "f").className = "logo", GC(this, _C, "f").appendChild(GC(this, kC, "f")), VC(this, TC, new Ax(GC(this, _C, "f"), t, n, s, l, h, a, o, u, !1, (() => {
             GC(this, TC, "f").hide(), GC(this, yC, "m", zC).call(this), GC(this, yC, "m", WC).call(this)
          }), ((e, i, r, a) => {
             if (e.hasStartingPoint()) {
@@ -23148,19 +23148,19 @@
             }))
          })), "f");
          const w = document.createElement("button");
-         w.className = "hidden", w.innerHTML = '<img src="images/customize.svg">', w.addEventListener("click", (() => {
+         w.className = "hidden", w.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/customize.svg">', w.addEventListener("click", (() => {
             n.playUIClick(), p()
          }));
          const y = document.createElement("p");
          y.textContent = t.get("Customize"), w.appendChild(y), GC(this, _C, "f").appendChild(w), GC(this, IC, "f").push(w);
          const b = document.createElement("button");
-         b.className = "hidden", b.innerHTML = '<img src="images/editor.svg">', b.addEventListener("click", (() => {
+         b.className = "hidden", b.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/editor.svg">', b.addEventListener("click", (() => {
             n.playUIClick(), f()
          }));
          const x = document.createElement("p");
          x.textContent = t.get("Editor"), b.appendChild(x), GC(this, _C, "f").appendChild(b), GC(this, IC, "f").push(b);
          const _ = document.createElement("button");
-         _.className = "hidden", _.innerHTML = '<img src="images/settings.svg">', _.addEventListener("click", (() => {
+         _.className = "hidden", _.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/settings.svg">', _.addEventListener("click", (() => {
             n.playUIClick(), GC(this, yC, "m", OC).call(this), GC(this, yC, "m", FC).call(this), VC(this, CC, new BT(GC(this, _C, "f"), t, n, d, r, u, (() => {
                var w;
                null === (w = GC(this, CC, "f")) || void 0 === w || w.dispose(), VC(this, CC, null, "f"), GC(this, yC, "m", e).call(this, t, n, i, r, a, o, s, l, c, h, d, u, p, f, m, g, v)
@@ -23169,7 +23169,7 @@
          const k = document.createElement("p");
          k.textContent = t.get("Settings"), _.appendChild(k), GC(this, _C, "f").appendChild(_), GC(this, IC, "f").push(_);
          const E = document.createElement("button");
-         E.className = "hidden", E.innerHTML = '<img src="images/helmet.svg">', E.addEventListener("click", (() => {
+         E.className = "hidden", E.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/helmet.svg">', E.addEventListener("click", (() => {
             n.playUIClick(), GC(this, yC, "m", OC).call(this);
             const e = (i, a) => {
                   VC(this, LC, new vC(n, t, a, (() => {
@@ -23241,7 +23241,7 @@
          const S = document.createElement("p");
          S.textContent = t.get("Profile"), E.appendChild(S), GC(this, _C, "f").appendChild(E), GC(this, IC, "f").push(E);
          const M = document.createElement("button");
-         M.className = "hidden", M.innerHTML = '<img src="images/play.svg">', M.addEventListener("click", (() => {
+         M.className = "hidden", M.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/play.svg">', M.addEventListener("click", (() => {
             n.playUIClick(), GC(this, yC, "m", OC).call(this), GC(this, yC, "m", FC).call(this), GC(this, TC, "f").show()
          }));
          const T = document.createElement("p");
@@ -23249,12 +23249,12 @@
          const A = document.createElement("div");
          if (A.className = "bottom-buttons", GC(this, _C, "f").appendChild(A), window.electron) {
             const e = document.createElement("button");
-            e.className = "button small", e.innerHTML = '<img src="images/quit.svg"> Quit', e.addEventListener("click", (() => {
+            e.className = "button small", e.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/quit.svg"> Quit', e.addEventListener("click", (() => {
                var e;
                n.playUIClick(), null === (e = window.electron) || void 0 === e || e.quit()
             })), A.appendChild(e), GC(this, NC, "f").push(e)
          }
-         VC(this, EC, document.createElement("a"), "f"), GC(this, EC, "f").className = "discord-link", GC(this, EC, "f").href = "https://www.kodub.com/discord/polytrack", GC(this, EC, "f").target = "_blank", GC(this, EC, "f").innerHTML = '<img src="images/discord.svg">', GC(this, _C, "f").appendChild(GC(this, EC, "f")), VC(this, SC, document.createElement("div"), "f"), GC(this, SC, "f").className = "info", GC(this, _C, "f").appendChild(GC(this, SC, "f"));
+         VC(this, EC, document.createElement("a"), "f"), GC(this, EC, "f").className = "discord-link", GC(this, EC, "f").href = "https://www.kodub.com/discord/polytrack", GC(this, EC, "f").target = "_blank", GC(this, EC, "f").innerHTML = '<img src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/discord.svg">', GC(this, _C, "f").appendChild(GC(this, EC, "f")), VC(this, SC, document.createElement("div"), "f"), GC(this, SC, "f").className = "info", GC(this, _C, "f").appendChild(GC(this, SC, "f"));
          const C = document.createElement("a");
          C.href = "https://www.kodub.com", C.target = "_blank", C.textContent = "kodub.com - " + t.get("Version") + " " + wC.rE, GC(this, SC, "f").appendChild(C);
          const P = document.createElement("a");
@@ -24471,7 +24471,7 @@
             lR.set(this, void 0), cR.set(this, void 0), hR(this, lR, t, "f");
             const i = e.getShadowDirection().negate();
             n.addResource();
-            const r = (new yh).load("images/clouds.jpg", (() => {
+            const r = (new yh).load("https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/clouds.jpg", (() => {
                n.loadedResource()
             }));
             r.wrapT = he, r.wrapS = he;
@@ -28776,7 +28776,7 @@
       VI = new WeakMap, GI = new WeakMap, jI = new WeakMap, qI = new WeakMap, XI = new WeakMap, YI = new WeakMap;
       const JI = class {
          constructor() {
-            VI.set(this, void 0), GI.set(this, void 0), jI.set(this, void 0), qI.set(this, void 0), XI.set(this, void 0), YI.set(this, void 0), KI(this, VI, document.getElementById("ui"), "f"), KI(this, GI, document.createElement("div"), "f"), ZI(this, GI, "f").className = "input-visualizer", ZI(this, VI, "f").appendChild(ZI(this, GI, "f")), KI(this, jI, document.createElement("div"), "f"), ZI(this, jI, "f").className = "arrow-up", ZI(this, jI, "f").innerHTML = '<img src="images/arrow_up.svg">', ZI(this, GI, "f").appendChild(ZI(this, jI, "f")), KI(this, qI, document.createElement("div"), "f"), ZI(this, qI, "f").className = "arrow-right", ZI(this, qI, "f").innerHTML = '<img src="images/arrow_right.svg">', ZI(this, GI, "f").appendChild(ZI(this, qI, "f")), KI(this, XI, document.createElement("div"), "f"), ZI(this, XI, "f").className = "arrow-down", ZI(this, XI, "f").innerHTML = '<img src="images/arrow_down.svg">', ZI(this, GI, "f").appendChild(ZI(this, XI, "f")), KI(this, YI, document.createElement("div"), "f"), ZI(this, YI, "f").className = "arrow-left", ZI(this, YI, "f").innerHTML = '<img src="images/arrow_left.svg">', ZI(this, GI, "f").appendChild(ZI(this, YI, "f"))
+            VI.set(this, void 0), GI.set(this, void 0), jI.set(this, void 0), qI.set(this, void 0), XI.set(this, void 0), YI.set(this, void 0), KI(this, VI, document.getElementById("ui"), "f"), KI(this, GI, document.createElement("div"), "f"), ZI(this, GI, "f").className = "input-visualizer", ZI(this, VI, "f").appendChild(ZI(this, GI, "f")), KI(this, jI, document.createElement("div"), "f"), ZI(this, jI, "f").className = "arrow-up", ZI(this, jI, "f").innerHTML = '<img src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/arrow_up.svg">', ZI(this, GI, "f").appendChild(ZI(this, jI, "f")), KI(this, qI, document.createElement("div"), "f"), ZI(this, qI, "f").className = "arrow-right", ZI(this, qI, "f").innerHTML = '<img src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/arrow_right.svg">', ZI(this, GI, "f").appendChild(ZI(this, qI, "f")), KI(this, XI, document.createElement("div"), "f"), ZI(this, XI, "f").className = "arrow-down", ZI(this, XI, "f").innerHTML = '<img src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/arrow_down.svg">', ZI(this, GI, "f").appendChild(ZI(this, XI, "f")), KI(this, YI, document.createElement("div"), "f"), ZI(this, YI, "f").className = "arrow-left", ZI(this, YI, "f").innerHTML = '<img src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/arrow_left.svg">', ZI(this, GI, "f").appendChild(ZI(this, YI, "f"))
          }
          dispose() {
             ZI(this, VI, "f").removeChild(ZI(this, GI, "f"))
@@ -28807,7 +28807,7 @@
             i = new rp(Math.max(0, Math.floor(n * vN(this, hN, "f").time * 1e3)));
          vN(this, nN, "f").call(this, i)
       }, mN = function () {
-         vN(this, cN, "f") ? vN(this, rN, "f").innerHTML = '<img src="images/reset.svg">' : vN(this, lN, "f") ? vN(this, rN, "f").innerHTML = '<img src="images/play.svg">' : vN(this, rN, "f").innerHTML = '<img src="images/pause.svg">'
+         vN(this, cN, "f") ? vN(this, rN, "f").innerHTML = '<img src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/reset.svg">' : vN(this, lN, "f") ? vN(this, rN, "f").innerHTML = '<img src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/play.svg">' : vN(this, rN, "f").innerHTML = '<img src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/pause.svg">'
       };
       const wN = class {
          constructor(e, t, n, i) {
@@ -28871,7 +28871,7 @@
          constructor(e, t, n) {
             xN.set(this, void 0), _N.set(this, void 0), kN(this, xN, document.getElementById("ui"), "f"), kN(this, _N, document.createElement("div"), "f"), EN(this, _N, "f").className = "preview-toolbar";
             const i = document.createElement("button");
-            i.className = "button", i.innerHTML = '<img class="button-icon" src="images/quit.svg"> ', i.append(document.createTextNode(t.get("Exit"))), i.addEventListener("click", (() => {
+            i.className = "button", i.innerHTML = '<img class="button-icon" src="https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/quit.svg"> ', i.append(document.createTextNode(t.get("Exit"))), i.addEventListener("click", (() => {
                e.playUIClick(), n()
             })), EN(this, _N, "f").appendChild(i), EN(this, xN, "f").appendChild(EN(this, _N, "f"))
          }
@@ -29078,7 +29078,7 @@
                         console.error(e)
                      }
                   }()
-               })), e.preloadImage("images/apply.svg"), e.preloadImage("images/arrow_down.svg"), e.preloadImage("images/arrow_left.svg"), e.preloadImage("images/arrow_right.svg"), e.preloadImage("images/arrow_up.svg"), e.preloadImage("images/back.svg"), e.preloadImage("images/cancel.svg"), e.preloadImage("images/car_stripe.svg"), e.preloadImage("images/checkpoint.svg"), e.preloadImage("images/clouds.jpg"), e.preloadImage("images/copy.svg"), e.preloadImage("images/customize.svg"), e.preloadImage("images/delete.svg"), e.preloadImage("images/discord.svg"), e.preloadImage("images/editor.svg"), e.preloadImage("images/erase.svg"), e.preloadImage("images/export.svg"), e.preloadImage("images/helmet.svg"), e.preloadImage("images/help.svg"), e.preloadImage("images/icon.svg"), e.preloadImage("images/import.svg"), e.preloadImage("images/load.svg"), e.preloadImage("images/logo.svg"), e.preloadImage("images/pause.svg"), e.preloadImage("images/pin.svg"), e.preloadImage("images/play.svg"), e.preloadImage("images/preview.svg"), e.preloadImage("images/quit.svg"), e.preloadImage("images/random.svg"), e.preloadImage("images/reset_settings.svg"), e.preloadImage("images/reset.svg"), e.preloadImage("images/rotate.svg"), e.preloadImage("images/save.svg"), e.preloadImage("images/settings.svg"), e.preloadImage("images/smoke.png"), e.preloadImage("images/state_invalid.svg"), e.preloadImage("images/state_pending.svg"), e.preloadImage("images/state_verified.svg"), e.preloadImage("images/test.svg"), e.preloadImage("images/verified.svg");
+               })), e.preloadImage("https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/apply.svg"), e.preloadImage("https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/arrow_down.svg"), e.preloadImage("https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/arrow_left.svg"), e.preloadImage("https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/arrow_right.svg"), e.preloadImage("https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/arrow_up.svg"), e.preloadImage("https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/back.svg"), e.preloadImage("https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/cancel.svg"), e.preloadImage("https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/car_stripe.svg"), e.preloadImage("https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/checkpoint.svg"), e.preloadImage("https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/clouds.jpg"), e.preloadImage("https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/copy.svg"), e.preloadImage("https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/customize.svg"), e.preloadImage("https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/delete.svg"), e.preloadImage("https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/discord.svg"), e.preloadImage("https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/editor.svg"), e.preloadImage("https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/erase.svg"), e.preloadImage("https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/export.svg"), e.preloadImage("https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/helmet.svg"), e.preloadImage("https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/help.svg"), e.preloadImage("https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/icon.svg"), e.preloadImage("https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/import.svg"), e.preloadImage("https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/load.svg"), e.preloadImage("https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/logo.svg"), e.preloadImage("https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/pause.svg"), e.preloadImage("https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/pin.svg"), e.preloadImage("https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/play.svg"), e.preloadImage("https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/preview.svg"), e.preloadImage("https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/quit.svg"), e.preloadImage("https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/random.svg"), e.preloadImage("https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/reset_settings.svg"), e.preloadImage("https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/reset.svg"), e.preloadImage("https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/rotate.svg"), e.preloadImage("https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/save.svg"), e.preloadImage("https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/settings.svg"), e.preloadImage("https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/smoke.png"), e.preloadImage("https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/state_invalid.svg"), e.preloadImage("https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/state_pending.svg"), e.preloadImage("https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/state_verified.svg"), e.preloadImage("https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/test.svg"), e.preloadImage("https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/images/verified.svg");
             const t = new sR,
       n = new iL,
       i = new hd(e);
