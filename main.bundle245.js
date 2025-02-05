@@ -777,15 +777,15 @@
          },
          832: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "4e75ed8189c5a7b6fbf8.ttf"
+            //e.exports = n.p + "4e75ed8189c5a7b6fbf8.ttf"
          },
          208: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "2e5b7bff10d7782e539c.woff"
+            //e.exports = n.p + "2e5b7bff10d7782e539c.woff"
          },
          682: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/a82f15d48dbc61b6edeb.woff2"
+            e.exports = "https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/a82f15d48dbc61b6edeb.woff2"
          },
          903: () => {},
          394: () => {}
