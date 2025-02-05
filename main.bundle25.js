@@ -777,11 +777,11 @@
          },
          832: (e, t, n) => {
             "use strict";
-            //e.exports = n.p + "4e75ed8189c5a7b6fbf8.ttf"
+            e.exports = "https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/4e75ed8189c5a7b6fbf8.ttf"
          },
          208: (e, t, n) => {
             "use strict";
-            //e.exports = n.p + "2e5b7bff10d7782e539c.woff"
+            e.exports = "https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/2e5b7bff10d7782e539c.woff"
          },
          682: (e, t, n) => {
             "use strict";
