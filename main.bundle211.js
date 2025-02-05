@@ -20277,7 +20277,7 @@
          }
          static initResources(e) {
             e.addResource();
-            (new oy).load("forced_square.json", (t => {
+            (new oy).load("https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/forced_square.json", (t => {
                tb(this, Zy, t, "f", eb), e.loadedResource()
             }))
          }
