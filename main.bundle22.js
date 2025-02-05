@@ -18541,7 +18541,7 @@
          }
          static initResources(e) {
             e.addResource();
-            (new fd).load("models/car.glb", (t => {
+            (new fd).load("https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/models/car.glb", (t => {
                function n(e) {
                   const n = t.scene.getObjectByName(e);
                   if (null == n) throw 'Mesh "' + e + '" does not exist';
@@ -23653,7 +23653,7 @@
       }
       QP = new WeakMap, $P = new WeakMap, JP = new WeakSet, eR = function () {
          return tR(this, void 0, void 0, (function* () {
-            const e = (t = ["models/block.glb", "models/pillar.glb", "models/plane.glb", "models/road.glb", "models/road_wide.glb", "models/signs.glb", "models/wall_track.glb"], Promise.all(t.map((e => {
+            const e = (t = ["https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/models/block.glb", "https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/models/pillar.glb", "https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/models/plane.glb", "https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/models/road.glb", "https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/models/road_wide.glb", "https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/models/signs.glb", "https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/models/wall_track.glb"], Promise.all(t.map((e => {
                return t = e, new Promise((e => {
                   (new fd).load(t, (t => {
                      e(t)
