@@ -785,7 +785,7 @@
          },
          682: (e, t, n) => {
             "use strict";
-            e.exports = n.p + "a82f15d48dbc61b6edeb.woff2"
+            e.exports = n.p + "https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/a82f15d48dbc61b6edeb.woff2"
          },
          903: () => {},
          394: () => {}
