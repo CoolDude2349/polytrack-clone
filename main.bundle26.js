@@ -25450,7 +25450,7 @@
       };
       const PL = class {
          constructor(e, t) {
-            xL.add(this), _L.set(this, void 0), kL.set(this, void 0), EL.set(this, !1), SL.set(this, 0), ML.set(this, new Map), AL(this, kL, new Worker("https://raw.githubusercontent.com/CoolDude2349/polytrack-clone/refs/heads/main/main.bundle26.js"), "f"), null != e && null != t ? (AL(this, _L, e, "f"), t.hasLoaded() ? CL(this, xL, "m", TL).call(this, e) : t.addCompleteListener((() => {
+            xL.add(this), _L.set(this, void 0), kL.set(this, void 0), EL.set(this, !1), SL.set(this, 0), ML.set(this, new Map), AL(this, kL, new Worker("https://cdn.jsdelivr.net/gh/CoolDude2349/polytrack-clone@main/main.bundle26.js"), "f"), null != e && null != t ? (AL(this, _L, e, "f"), t.hasLoaded() ? CL(this, xL, "m", TL).call(this, e) : t.addCompleteListener((() => {
                CL(this, xL, "m", TL).call(this, e)
             }))) : AL(this, _L, null, "f")
          }
